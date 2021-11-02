@@ -13,6 +13,5 @@ app.get('/', function(req, res) { // serve main path as static file
   res.sendFile(path.resolve('./dist/index.html'))
 });
 
-
 app.listen(process.env.PORT || 3000,
   () => console.log("Server is running..."));
