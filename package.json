@@ -1,0 +1,22 @@
+{
+  "name": "heroku-simple-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "heroku.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArnonAsquira/heroku-simple-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArnonAsquira/heroku-simple-app/issues"
+  },
+  "homepage": "https://github.com/ArnonAsquira/heroku-simple-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
