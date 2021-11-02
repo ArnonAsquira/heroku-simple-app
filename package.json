@@ -13,8 +13,10 @@
   "author": "Max Langerman",
   "license": "ISC",
   "dependencies": {
+    "cli": "^1.0.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "ua-parser-js": "^1.0.2"
+    "ua-parser-js": "^1.0.2",
+    "webpack": "^5.61.0"
   }
 }
