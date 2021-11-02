@@ -10,8 +10,7 @@ app.use(userAgentMiddleware);
 app.use('/ua', userAgentRouter);
 app.use('/', express.static(path.resolve('./dist'))); // serve main path as static dir
 app.get('/', function(req, res) { // serve main path as static file
-  // res.sendFile(path.resolve('./dist/index.html'))
-  res.send('ok');
+  res.sendFile(path.resolve('./dist/index.html'));
 });
 
 
